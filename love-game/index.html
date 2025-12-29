@@ -210,7 +210,7 @@
 
 <body> <audio id="backgroundMusic" autoplay loop>
 
-  <source src="/sound/park.mp3" type="audio/mp3">
+  <source src="./sound/park.mp3" type="audio/mp3">
 
   <source src="/love-game/assets/park-m8S6M5Vq.mp3" type="audio/mp3">
 
@@ -273,7 +273,7 @@ function playHoverSound() {
   }
 
   // 创建一个新的音频实例
-  hoverAudio = new Audio('/sound/start.mp3'); // 替换为你的音效文件路径
+  hoverAudio = new Audio('./sound/start.mp3'); // 替换为你的音效文件路径
   hoverAudio.play().catch((error) => {
     console.error("Failed to play hover sound:", error);
   });
