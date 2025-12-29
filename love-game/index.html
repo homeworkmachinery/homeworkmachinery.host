@@ -210,7 +210,7 @@
 
 <body> <audio id="backgroundMusic" autoplay loop>
 
-  <source src="./sound/park.mp3" type="audio/mp3">
+   <source data-local="./sound/park.mp3" data-prod="/sound/park.mp3" type="audio/mp3">
 
   <source src="/love-game/assets/park-m8S6M5Vq.mp3" type="audio/mp3">
 
@@ -242,6 +242,30 @@
 
 
   <script>
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const audio = document.getElementById('backgroundMusic');
+  const source = audio.querySelector('source');
+  
+  // 判断环境
+  const isLocal = window.location.hostname.includes('localhost');
+  
+  // 设置对应的路径
+  if (isLocal) {
+    source.src = source.getAttribute('data-local');
+    console.log('本地环境：使用相对路径');
+  } else {
+    source.src = source.getAttribute('data-prod');
+    console.log('生产环境：使用绝对路径');
+  }
+  
+  // 重新加载音频
+  audio.load();
+});
+
+
+
     document.addEventListener("DOMContentLoaded", () => {
       const backgroundMusic = document.getElementById("backgroundMusic");
 
