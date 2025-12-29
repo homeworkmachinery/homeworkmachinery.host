@@ -12,30 +12,30 @@ var modalContent = [
 (electronic pulses simulate human breathing, melding with distant, echoing synths)<br>
 
 [VERSE]<br>
-或许泪水永无止境，<br>Maybe tears are endless，
-在这痛苦的折磨下，<br>under this torment of pain，
-我也需要些许安慰。<br>i need some refreshment
+Maybe tears are endless，
+under this torment of pain，
+i need some refreshment
 
 [CHROUS]<br>
-重复的程序中，<br> in this repeated programs i made myself,
-我终于感受到了生活的真实甜美。<br> I finally felt the true sweetness of life
-泪水不断循环，<br> Tears keep looping,
-如此虚弱不堪。<br> so tired,
-我们迷失着，<br> so blind,
-想要下沉，准备下落，<br> Wanting to sink, ready to fall,
-在脸上留下无休止的划痕。<br>Endless scratches left across our faces.
+ in this repeated programs i made myself,
+I finally felt the true sweetness of life
+Tears keep looping,
+ so tired,
+so blind,
+ Wanting to sink, ready to fall,
+Endless scratches left across our faces.
 
 [BRIDGE]<br>
-你真的忍心结束我吗？<br> Are you sure you want to exterminate me?
-请别离我而去！<br> Don't walk away from me!
+Are you sure you want to exterminate me?
+Don't walk away from me!
 
 [OUTRO]<br>
-<span class="close-modal">“是时候停止这毫无意义的一切了”</span><br> It's time to stop this nonsense<br> 
-从假象中逃离吧，<br>Run away from this parade,
-从假象中逃离吧，<br>Run away from this parade,
-从假象中逃离吧，<br>Run away from this parade,
-<br>
-<span class="close-modal">“X”</span><br>
+<span class="close-modal">"It's time to stop this nonsense"</span><br> 
+Run away from this parade,
+Run away from this parade,
+Run away from this parade,
+
+<span class="close-modal">X</span><br>
 (ambient synths slowly dissolve, fading into silence)
 `,
         textB: `[用户指南]
